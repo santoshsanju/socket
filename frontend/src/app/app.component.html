@@ -1,0 +1,5 @@
+<input type="text" name="message" [(ngModel)]="message">
+<button type="button" (click)="send()">Send</button>
+@for (item of messages; track $index) {
+<h1>{{item}}</h1>
+}
